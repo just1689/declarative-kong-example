@@ -1,0 +1,10 @@
+_format_version: "1.1"
+
+services:
+- name: my-service
+  url: http://mockbin.org
+  routes:
+  - name: my-route
+    hosts:
+    - localhost
+
