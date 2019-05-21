@@ -4,7 +4,6 @@ This example comes from <a href="https://docs.konghq.com/1.1.x/db-less-and-decla
 
 # Running example
 
-cd to the directory
 ```sh
 mkdir kong-example
 cd kong-example
