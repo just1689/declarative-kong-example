@@ -10,7 +10,7 @@ cd kong-example
 git clone https://github.com/just1689/declarative-kong-example.git
 cd declarative-kong-example
 docker build -t t/t:kong .
-docker run --name kong -p 9000:8000 -p 9001:8001 t/t:kong
+docker run --name kong -p 8000:8000 -p 8001:8001 t/t:kong
 ```
 
-Open <a href="http://localhost:9000/">http://localhost:9000/</a> in the browser.
+Open <a href="http://localhost:8000/">http://localhost:8000/</a> in the browser.
